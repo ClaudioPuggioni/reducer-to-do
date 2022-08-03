@@ -1,0 +1,63 @@
+.taskItem {
+  height: 52px;
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--taskbg-color);
+  cursor: pointer;
+}
+
+.incompleteBtn {
+  height: 20px;
+  width: 20px;
+  border: 2px solid var(--divisions-color);
+  background-color: var(--taskbg-color);
+  border-radius: 9001px;
+  cursor: pointer;
+}
+
+.completeBtn {
+  height: 20px;
+  width: 20px;
+  border: none;
+  color: white;
+  background: linear-gradient(135deg, rgb(51, 194, 255) 0%, rgb(207, 53, 241) 100%);
+  border-radius: 9001px;
+  cursor: pointer;
+}
+
+.taskText {
+  flex: 1;
+  width: 100%;
+  padding-left: 13px;
+
+  color: var(--font-color1);
+  font-size: 12px;
+}
+
+.taskComplete {
+  flex: 1;
+  width: 100%;
+  padding-left: 13px;
+
+  color: var(--font-color3);
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+#delBtn {
+  border: none;
+  background: transparent;
+
+  font-size: 30px;
+  font-weight: 0;
+  cursor: pointer;
+}
+
+.delCross {
+  height: 12px;
+  width: 12px;
+}

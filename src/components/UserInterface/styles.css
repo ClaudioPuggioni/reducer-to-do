@@ -1,0 +1,189 @@
+#container {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#app {
+  position: relative;
+  top: 47.5px;
+  width: 100%;
+  max-width: 630px;
+  padding: 0 28px;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#appTitle {
+  width: 100%;
+  max-width: 570px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+#headerImage {
+  width: 100%;
+}
+#mode {
+  height: 20px;
+  width: 20px;
+}
+#appContainer {
+  position: relative;
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 375.1px) {
+  #container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+  }
+  #header {
+    position: static;
+    height: 300px;
+    width: 100%;
+    max-width: 1440px;
+  }
+  #app {
+    position: fixed;
+    top: 62px;
+  }
+  #appTitle {
+    font-size: 43px;
+  }
+  #mode {
+    position: relative;
+    top: 2px;
+    height: 28px;
+    width: 28px;
+  }
+  #appContainer {
+    width: auto;
+  }
+  #inputTask {
+    height: 70px !important;
+    margin-top: 42px !important;
+    padding: 0px 5px !important;
+  }
+  .incompleteBtn {
+    height: 27px !important;
+    width: 27px !important;
+  }
+  .completeBtn {
+    height: 27px !important;
+    width: 27px !important;
+  }
+  #inputBox {
+    padding-left: 25px !important;
+    font-size: 14px !important;
+  }
+  #inputBox::placeholder {
+    font-size: 14px !important;
+  }
+  #tasksListed {
+    margin-top: 24px !important;
+  }
+  .taskItem {
+    height: 68.69px !important;
+    padding: 0px 25px !important;
+  }
+  .taskText {
+    padding-left: 22px !important;
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (min-width: 440px) {
+  #inputBox {
+    font-size: 15px !important;
+  }
+  #inputBox::placeholder {
+    font-size: 15px !important;
+  }
+  .taskText {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  #inputBox {
+    font-size: 16px !important;
+  }
+  #inputBox::placeholder {
+    font-size: 16px !important;
+  }
+  .taskText {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (min-width: 510px) {
+  #inputBox {
+    font-size: 17px !important;
+  }
+  #inputBox::placeholder {
+    font-size: 17px !important;
+  }
+  .taskText {
+    font-size: 17px !important;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  #inputBox {
+    font-size: 18px !important;
+  }
+  #inputBox::placeholder {
+    font-size: 18px !important;
+  }
+  .taskText {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  #inputBox {
+    font-size: 19px !important;
+  }
+  #inputBox::placeholder {
+    font-size: 19px !important;
+  }
+  .taskText {
+    font-size: 19px !important;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  #inputBox {
+    font-size: 20px !important;
+  }
+  #inputBox::placeholder {
+    font-size: 20px !important;
+  }
+  .taskText {
+    font-size: 20px !important;
+  }
+  #showSelection {
+    position: absolute;
+    width: 0% !important;
+    bottom: 0px;
+  }
+}

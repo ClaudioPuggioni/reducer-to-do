@@ -1,0 +1,32 @@
+#showSelection {
+  height: 47.5px;
+  width: 100%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+  background-color: var(--taskbg-color);
+  transition: opacity 0.2s ease-in-out;
+}
+
+.showBtn {
+  padding: 10px;
+  border: none;
+  color: var(--font-color2);
+  font-size: 13.5px;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+#tasksCompletedFooter {
+  cursor: default;
+}
+#clearCompleteBtn {
+  cursor: pointer;
+}
+/* .showBtn:hover {
+  color: var(--hover-color);
+  cursor: pointer;
+} */

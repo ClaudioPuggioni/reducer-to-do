@@ -1,0 +1,91 @@
+#taskList {
+  width: 100%;
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+
+  overflow: hidden;
+}
+#inputTask {
+  height: 48px;
+  width: 100%;
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+  background-color: var(--taskbg-color);
+}
+#stagBtn {
+  margin-left: 19px;
+}
+#inputBox {
+  flex: 1;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 13.3px;
+
+  border: none;
+  outline: none;
+  color: var(--font-color2);
+  background-color: transparent;
+}
+#inputBox::placeholder {
+  font-size: 12px;
+  color: var(--font-color2);
+}
+
+#tasksListed {
+  width: 100%;
+  margin-top: 16.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+
+  background-color: var(--divisions-color);
+
+  overflow: hidden;
+  transition: opacity 0.2s ease-in-out;
+}
+#tasksListedFooter {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  background-color: var(--taskbg-color);
+}
+
+#tasksListedFooterTxt {
+  width: 86%;
+  display: flex;
+  justify-content: space-between;
+}
+#tasksCompletedFooter {
+  color: var(--font-color2);
+  font-size: 15px;
+}
+#clearCompleteBtn {
+  border: none;
+
+  color: var(--font-color2);
+  font-size: 15px;
+
+  background-color: transparent;
+}
+
+.taskDivider {
+  /* height: 1.3333333px; */
+  height: 1px;
+}
